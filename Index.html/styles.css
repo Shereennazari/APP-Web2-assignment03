@@ -1,0 +1,64 @@
+header{
+    background-color:  rgb(64, 61, 61);
+    border: 2px solid;
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.product-image{
+    width: 230px;
+    height: 240px;
+    padding: 5px;
+}
+.picture{
+    width: 230px;
+    height: 240px;
+    padding: 5px;
+}
+.product-image img:hover{
+    opacity: 0.5;
+}
+.product-name{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: bold;
+}
+.product-price{
+    text-align: center;
+    font-weight: bold;
+}
+#narrow{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    text-align: right;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-top: 90px;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(148, 151, 150);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height: 25px;
+   
+}
